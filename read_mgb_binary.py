@@ -13,4 +13,4 @@ def read_mgb_binary_as_dataframe(filebin, nt, nc, dstart):
     times = [dstart + timedelta(days=i) for i in range(nt)]
     df = pd.DataFrame(dados, columns=range(1,nc+1), index=times)
     
-	return df
+    return df
